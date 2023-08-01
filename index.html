@@ -81,35 +81,14 @@
 
         <!-- ***** Form Starts ***** -->
 
-          <form class="messageForm">
-            <form action="https://formsubmit.co/oafeteam@email.com" method="POST">
-
-            <div class="inputGroup halfWidth">
-              <input type="text" name="" required="required">
-              <label>Name</label>
-            </div>
-
-            <div class="inputGroup halfWidth">
-              <input type="email" name="" required="required">
-              <label>Email</label>
-            </div>
-
-            <div class="inputGroup fullWidth">
-              <input type="text" name="" required="required">
-              <label>Subject</label>
-            </div>
-
-            <div class="inputGroup fullWidth">
-              <textarea required="required"></textarea>
-              <label>Message</label>
-            </div>
-
-            <div class="inputGroup fullWidth">
-              <button>Send Message</button>
-            </div>
-
-          </form>
-          </form>
+        <form action="https://formsubmit.co/oafeteam@email.com" method="POST">
+          <h3>Get in Touch</h3>
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Email Id" required>
+          <input type="subject" id="subject" placeholder="Subject" required>
+          <textarea id="message" rows="4" placeholder="Leave a message"></textarea>
+          <button type="submit">Send</button>
+        </form>
 
         <!-- ***** Form Ends ***** -->
       </section>
