@@ -208,6 +208,11 @@
 
   <div class="form-container">
     <form action="https://formsubmit.co/oafeteam@gmail.com" method="POST">
+      <!--- Honeypot --->
+      <input type="text" name="_honey" style="display: none;">
+
+      <!--- Disable Captcha --->
+      <input type="hidden" name="_captcha" value="false">
 
       <div class="inputBox">
         <input type="text" placeholder="first name" name="name" required>
@@ -215,7 +220,7 @@
       </div>
 
       <input type="email" placeholder="email" name="email" required>
-      <textarea name="questions" id="comments" cols="30" rows="10" placeholder="message" required></textarea>
+      <textarea name="question" id="comments" cols="30" rows="10" placeholder="message" required></textarea>
       <input type="submit" value="send">
 
     </form>
