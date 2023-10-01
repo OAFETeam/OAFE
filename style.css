@@ -8,7 +8,6 @@
   font-family: 'Poppins', sans-serif;
   margin: 0; padding: 0;
   box-sizing: border-box;
-  text-transform: capitalize;
   transition: all .2 linear;
   text-decoration: none;
 }
@@ -47,24 +46,6 @@ body{
 .heading::after{
   bottom: -.5rem; right: -2rem;
   transform: rotate(180deg);
-}
-
-.btn{
-  outline: none;
-  border: none;
-  border-radius: 5rem;
-  background: var(--color);
-  color: #fff;
-  cursor: pointer;
-  height: 3.5rem;
-  width: 15rem;
-  font-size: 1.7rem;
-  box-shadow: 0 .2rem .5rem rgba(0,0,0,.3);
-}
-
-.btn:hover{
-  letter-spacing: .1rem;
-  opacity: .8;
 }
 
 
